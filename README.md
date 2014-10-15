@@ -14,9 +14,11 @@ gem 'compresslog'
 Uso:
 
 Verificar a necessidade de backup
+
 backutp_is_needed?
 
 Realizar o backup
+
 log_compress
 
 ---------------------
