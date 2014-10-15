@@ -5,7 +5,7 @@ def backutp_is_needed?
   return !dir.empty?
 end
 
-def compress_log
+def log_compress
   data = Time.new.strftime("%Y%m%d_%H%M%S")
 
   folder = Rails.root.join("log")
