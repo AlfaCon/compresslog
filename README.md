@@ -1,23 +1,18 @@
 <h1>
 Equipe ALFACON
 </h1>
-=================
 
 <h1>
 compresslog
 </h1>
-=================
 
 Manipula os arquivos gerados pelo _log rotate_
 
------------------------
 <h2>
 Install:
 </h2>
 
 **gem** 'compresslog'
-
------------------------
 
 <h2>
 Uso:
@@ -39,7 +34,6 @@ Para realizar todo o processo de _verificar a necessidade -> compactar log -> ex
 
 **log_compress_full**
 
----------------------
 
 <h2>
 Automatização
