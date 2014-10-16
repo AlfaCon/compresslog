@@ -1,27 +1,27 @@
-H1
+\H1
 Equipe ALFACON
 
 =================
 
-H1
+\H1
 rails-compresslog
 =================
 
 Manipula os arquivos gerados pelo _log rotate_
 
 -----------------------
-H2
+\H2
 Install:
 
-H6
+\H6
 **gem** 'compresslog'
 
 -----------------------
 
-H2
+\H2
 Uso:
 
-H6
+\H6
 Para verificar a necessidade de backup utilize:
 
 **backutp_is_needed?**
@@ -40,11 +40,8 @@ Para realizar todo o processo de _verificar a necessidade -> compactar log -> ex
 
 ---------------------
 
-H2
+\H2
 Automatização
 
-H6
+\H6
 Use alguma Gem como 'rufus-scheduler' para automatizar o backup em um período x.
-
-
-
