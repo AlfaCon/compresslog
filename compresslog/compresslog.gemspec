@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "compresslog"
-  s.version     = "0.2.0"
+  s.version     = "0.2.2"
   s.description = "Gem compress to log application"
   s.summary     = "compress log"
   s.author      = "Samuel Blum Vorpagel"
