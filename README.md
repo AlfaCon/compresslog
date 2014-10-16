@@ -21,6 +21,14 @@ Realizar o backup
 
 log_compress
 
+Excluir todos os logs.algo
+
+log_delete
+
+Realizar todo o processo em um comando -> verificar a necessidade -> compactar log -> excluir logs
+
+log_compress_full
+
 ---------------------
 
 Use Gem como 'rufus-scheduler' para automatizar o backup.
