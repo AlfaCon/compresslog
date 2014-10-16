@@ -1,37 +1,50 @@
+H1
+Equipe ALFACON
+
+=================
+
+H1
 rails-compresslog
 =================
 
-Gem compress to log application
+Manipula os arquivos gerados pelo _log rotate_
 
 -----------------------
-
+H2
 Install:
 
-gem 'compresslog'
+H6
+**gem** 'compresslog'
 
 -----------------------
 
+H2
 Uso:
 
-Verificar a necessidade de backup
+H6
+Para verificar a necessidade de backup utilize:
 
-backutp_is_needed?
+**backutp_is_needed?**
 
-Realizar o backup
+Para realizar o backup dos arquivos gerados pelo log rotate utilize:
 
-log_compress
+**log_compress**
 
-Excluir todos os logs.algo
+Para excluir todos os logs no formato log.0, log.1, log.2, .. , log.n utilize:
 
-log_delete
+**log_delete**
 
-Realizar todo o processo em um comando -> verificar a necessidade -> compactar log -> excluir logs
+Para realizar todo o processo de _verificar a necessidade -> compactar log -> excluir logs_ em um único comando utilize:
 
-log_compress_full
+**log_compress_full**
 
 ---------------------
 
-Use Gem como 'rufus-scheduler' para automatizar o backup.
+H2
+Automatização
+
+H6
+Use alguma Gem como 'rufus-scheduler' para automatizar o backup em um período x.
 
 
 
