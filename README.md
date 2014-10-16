@@ -4,7 +4,7 @@ Equipe ALFACON
 =================
 
 <h1>
-rails-compresslog
+compresslog
 </h1>
 =================
 
