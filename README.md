@@ -1,13 +1,12 @@
 <h1>
-Equipe ALFACON
+.::ALFACON::.Dev-Team.::.
 </h1>
 
 <h1>
-compresslog
+CompressLog
 </h1>
 
-Manipula os arquivos gerados pelo _log rotate_
-
+Handles and compact log files.
 <h2>
 Install:
 </h2>
@@ -15,8 +14,12 @@ Install:
 **gem** 'compresslog'
 
 <h2>
-Uso:
+How To Use:
 </h2>
+
+To compact all logs just if its needed:
+
+**log_compress_full**
 
 Para verificar a necessidade de backup utilize:
 
