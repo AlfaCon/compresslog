@@ -2,12 +2,12 @@ require 'zip'
 
 module Compresslog
 
-  def backutp_is_needed?
+  def Compresslog.backup_is_needed?
     dir = Dir.entries("#{Rails.root.join("log")}").grep /^#{Rails.env}.log./
     return !dir.empty?
   end
 
-  def log_compress
+  def Compresslog.log_compress
     data = Time.new.strftime("%Y%m%d_%H%M%S")
     folder = Rails.root.join("log")
     input_filenames = Dir.entries("#{folder}").grep /^#{Rails.env}.log./
@@ -21,7 +21,7 @@ module Compresslog
     end
   end
 
-  def log_delete
+  def Compresslog.log_delete
 
     data = Time.new.strftime("%Y%m%d_%H%M%S")
     folder = Rails.root.join("log")
@@ -33,7 +33,7 @@ module Compresslog
     end
   end
 
-  def log_compress_full (list_name=[])
+  def Compresslog.log_compress_full (list_name=[])
     list_name << Rails.env
     list_name.each do |name|
       data = Time.new.strftime("%Y%m%d_%H%M%S")
