@@ -39,7 +39,7 @@ module Compresslog
       data = Time.new.strftime("%Y%m%d_%H%M%S")
       folder = Rails.root.join("log")
       input_filenames = Dir.entries("#{folder}").grep /^#{name}.log./
-      zipfile_name = "#{folder}/#{data}.zip"
+      zipfile_name = "#{folder}/#{data}-#{name}.zip"
       unless (input_filenames.empty?)
 	Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
 	  input_filenames.each do |filename|
