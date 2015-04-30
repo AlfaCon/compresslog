@@ -1,13 +1,12 @@
 <h1>
-Equipe ALFACON
+.::ALFACON::.Dev-Team.::.
 </h1>
 
 <h1>
-compresslog
+CompressLog
 </h1>
 
-Manipula os arquivos gerados pelo _log rotate_
-
+Handles and compact log files.
 <h2>
 Install:
 </h2>
@@ -15,22 +14,26 @@ Install:
 **gem** 'compresslog'
 
 <h2>
-Uso:
+How To Use:
 </h2>
 
-Para verificar a necessidade de backup utilize:
+To compact all logs just if its needed:
+
+**log_compress_full**
+
+To check if backup is needed:
 
 **backutp_is_needed?**
 
-Para realizar o backup dos arquivos gerados pelo log rotate utilize:
+To backup log files made by LogRotate:
 
 **log_compress**
 
-Para excluir todos os logs no formato log.0, log.1, log.2, .. , log.n utilize:
+To delete log files with format 'log.0, log.1, ..' use:
 
 **log_delete**
 
-Para realizar todo o processo de _verificar a necessidade -> compactar log -> excluir logs_ em um único comando utilize:
+To make all process:  _verificar a necessidade -> compactar log -> excluir logs_ 
 
 **log_compress_full**
 
